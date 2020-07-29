@@ -1,0 +1,21 @@
+\documentclass[aspectratio=169, 14pt]{beamer}
+
+\usepackage{tikz}
+\usepackage{macros}
+
+\newcommand{\chapter}{\textbf}
+\renewcommand{\section}{\framebreak\textbf}
+\renewcommand{\href}{\url}
+\newcommand{\autoref}{Figure \ref}
+\renewenvironment{example}{\textbf{Example:} }{}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{theorems}[numbered]
+\setbeamertemplate{caption}[numbered]
+
+\newtheorem{proposition}[theorem]{\translate{Proposition}}
+
+\begin{document}
+\begin{frame}[allowframebreaks=0.8]
+  \input{strings}
+\end{frame}
+\end{document}

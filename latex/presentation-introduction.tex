@@ -1,0 +1,16 @@
+\documentclass[aspectratio=169, 14pt]{beamer}
+
+\newcommand{\chapter}{\textbf}
+\renewcommand{\section}{\framebreak\textbf}
+\renewcommand{\href}{\url}
+\newcommand{\autoref}{Figure \ref}
+\renewenvironment{example}{\textbf{Example:} }{}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{theorems}[numbered]
+\setbeamertemplate{caption}[numbered]
+
+\begin{document}
+\begin{frame}[allowframebreaks=0.8]
+  \input{introduction}
+\end{frame}
+\end{document}
