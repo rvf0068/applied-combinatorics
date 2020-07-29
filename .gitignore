@@ -173,3 +173,4 @@ image*.svg
 schemas.xml
 image-widths.txt
 book.log.graphic_size
+latex/auto/*.el
